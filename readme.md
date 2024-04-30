@@ -24,3 +24,8 @@ HTML5 Sortable library public CDN
 https://cdnjs.cloudflare.com/ajax/libs/html5sortable/0.13.3/html5sortable.min.js
 
 
+django-embed-video is a third-party Django application that allows you to 
+embed videos in your templates
+https://django-embed-video.readthedocs.io/en/latest/
+
+    pip install django-embed-video
