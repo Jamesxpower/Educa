@@ -68,6 +68,10 @@ Django REST framework
     Install the framework
     pip install djangorestframework
 
-    
+curl for windows
+    download
+    https://curl.se/windows/
  
+test:test123456
+test2:test2123456
 
