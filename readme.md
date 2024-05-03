@@ -16,8 +16,13 @@ Source code
     https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter14
 
 第 15 章 Building an API
-    soruce cdoe 
+    soruce code 
     https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter15
+
+
+第 16 章 Building a Chat Server
+    source code
+    https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter16
 
 
 
@@ -67,6 +72,10 @@ Django REST framework
 
     Install the framework
     pip install djangorestframework
+
+Django Channels
+    https://channels.readthedocs.io/en/latest/
+
 
 curl for windows
     download
