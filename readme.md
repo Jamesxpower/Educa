@@ -77,10 +77,18 @@ Django Channels
     https://channels.readthedocs.io/en/latest/
 
 
+Installing Channels
+    pip install channels
+
+
 curl for windows
     download
     https://curl.se/windows/
  
+
+Introduction to ASGI
+https://asgi.readthedocs.io/en/latest/introduction.html
+
 test:test123456
 test2:test2123456
 
