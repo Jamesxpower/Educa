@@ -80,6 +80,9 @@ Django Channels
 Installing Channels
     pip install channels
 
+Installing Channels Redis
+    pip install channels-redis
+
 
 curl for windows
     download
@@ -88,6 +91,10 @@ curl for windows
 
 Introduction to ASGI
 https://asgi.readthedocs.io/en/latest/introduction.html
+
+
+Tutorial Part 2: Implement a Chat Server
+https://channels.readthedocs.io/en/stable/tutorial/part_2.html
 
 test:test123456
 test2:test2123456
