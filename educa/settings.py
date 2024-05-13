@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'channels',
     'courses.apps.CoursesConfig',
     'students.apps.StudentsConfig',
     'django.contrib.admin',
@@ -46,6 +45,7 @@ INSTALLED_APPS = [
     'redisboard',
     'rest_framework',
     'chat',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -112,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.redis.RedisCache',
-        'LOCATION': 'redis://127.0.0.1:6379',
+        'LOCATION': 'redis://192.168.1.120:6379',
     }
 }
 
@@ -154,14 +154,13 @@ REST_FRAMEWORK = {
     ]
 }
 
-#ASGI_APPLICATION = 'educa.asgi.application'
-ASGI_APPLICATION = 'educa.routing.application'
+ASGI_APPLICATION = 'educa.asgi.application'
 
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
-            "hosts": [('127.0.0.1', 6379)],
+            "hosts": [('192.168.1.120', 6379)],
         },
     },
 }

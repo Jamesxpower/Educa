@@ -10,7 +10,7 @@ def course_chat_room(request, course_id):
         course = request.user.courses_joined.get(id=course_id)
     except:
         # user is not a student of the course or course does not exist
-        return HttpResponseForbidden
+        return HttpResponseForbidden()
 
     return render(request=request, template_name='chat/room.html', context={'course': course})
 
