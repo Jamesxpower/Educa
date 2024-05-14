@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d850e4f-1e7c-436d-aec3-f52cae197341" name="Changes" comment="5/6 lost file commit at night">
-      <change beforePath="$PROJECT_DIR$/.idea/educa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/educa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_5_3__11_54__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_5_3_下午_11_54_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="7d850e4f-1e7c-436d-aec3-f52cae197341" name="Changes" comment="5/13 study commit at night">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/routing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/templates/chat/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/templates/chat/room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/consumers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714841143565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="5/13 study commit at night">
+      <created>1715614463737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715614463737</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5/5 study commit at night" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/5 study commit at night" />
+    <MESSAGE value="5/13 study commit at night" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/13 study commit at night" />
   </component>
 </project>
