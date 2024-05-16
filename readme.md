@@ -24,6 +24,9 @@ Source code
     source code
     https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter16
 
+第 17 章 Going Live
+    source code
+    https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter17
 
 
 django-braces API
