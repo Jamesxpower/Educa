@@ -102,3 +102,5 @@ https://channels.readthedocs.io/en/stable/tutorial/part_2.html
 test:test123456
 test2:test2123456
 
+docker:
+    root:123456
