@@ -18,8 +18,10 @@ services:
   web:
     build: .
     command: ["./wait-for-it.sh", "db:5432", "--",
-              "uwsgi", "--ini", "/code/config/uwsgi/uwsgi.ini",
-              "0.0.0.0:8000"]
+              "uwsgi", "--ini", "./config/uwsgi/uwsgi.ini"]
+    #          "--http", "0.0.0.0:8000"]
+    #command: ["./wait-for-it.sh", "db:5432", "--",
+    #          "python", "/code/manage.py", "runserver"]
     restart: always
     volumes:
       - .:/code
@@ -33,3 +35,13 @@ services:
     depends_on:
       - db
       - cache
+
+  nginx:
+    image: nginx
+    restart: always
+    volumes:
+      - ./config/nginx:/etc/nginx/templates
+      - .:/code
+    ports:
+      - "80:80"
+
