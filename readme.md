@@ -91,13 +91,16 @@ curl for windows
     download
     https://curl.se/windows/
  
-
 Introduction to ASGI
 https://asgi.readthedocs.io/en/latest/introduction.html
 
 
 Tutorial Part 2: Implement a Chat Server
 https://channels.readthedocs.io/en/stable/tutorial/part_2.html
+
+
+Creating an SSL/TLS certificate
+    openssl req -x509 -newkey rsa:2048 -sha256 -days 3650 -nodes -keyout ssl/educa.key -out ssl/educa.crt -subj '/CN=*.educaproject.com' -addext 'subjectAltName=DNS:*.educaproject.com'
 
 test:test123456
 test2:test2123456
