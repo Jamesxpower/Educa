@@ -92,11 +92,14 @@ curl for windows
     https://curl.se/windows/
  
 Introduction to ASGI
-https://asgi.readthedocs.io/en/latest/introduction.html
+    https://asgi.readthedocs.io/en/latest/introduction.html
 
 
 Tutorial Part 2: Implement a Chat Server
-https://channels.readthedocs.io/en/stable/tutorial/part_2.html
+    https://channels.readthedocs.io/en/stable/tutorial/part_2.html
+
+Daphne ASGI Server
+    https://github.com/django/daphne
 
 
 Creating an SSL/TLS certificate

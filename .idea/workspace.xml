@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d850e4f-1e7c-436d-aec3-f52cae197341" name="Changes" comment="5/30 study commit at night">
+    <list default="true" id="7d850e4f-1e7c-436d-aec3-f52cae197341" name="Changes" comment="6/2 study commit at night">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/nginx/default.conf.template" beforeDir="false" afterPath="$PROJECT_DIR$/config/nginx/default.conf.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/settings/prod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717083205899</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="6/2 study commit at night">
+      <created>1717262299793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717262299793</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +166,7 @@
     <MESSAGE value="5/23 study commit at night" />
     <MESSAGE value="5/29 study commit at night" />
     <MESSAGE value="5/30 study commit at night" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/30 study commit at night" />
+    <MESSAGE value="6/2 study commit at night" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/2 study commit at night" />
   </component>
 </project>
