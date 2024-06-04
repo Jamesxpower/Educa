@@ -49,7 +49,7 @@ services:
   daphne:
     build: .
     working_dir: /code/
-    command: ["../wait-for-it.sh", "db:5432", "--",
+    command: ["./wait-for-it.sh", "db:5432", "--",
               "daphne", "-u", "/code/daphne.sock",
               "educa.asgi:application"]
     restart: always
